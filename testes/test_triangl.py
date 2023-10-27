@@ -1,6 +1,5 @@
 from src.triangulopast.triangulo import Triangulo
 
-
 def test_string1():
     t = Triangulo()
     assert t.verificar(0, 0, 0) == False
@@ -23,4 +22,4 @@ def test_string5():
 
 def test_string6():
     t = Triangulo()
-    assert t.verificar(9, 8, 16) == False
+    assert t.verificar(9, 8, 16) == True
